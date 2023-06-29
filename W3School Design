@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #img {
+            width: 50px;
+            padding: 5px 16px 5px 15px;
+            display: inline-block;
+        }
+        .Headline {
+            padding: 16px;
+            font-size: 16px;
+            color: black;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+        }
+        a{
+            text-decoration:none;
+        }
+        .Data {
+            float: right;
+            padding: 10px 0px 5px 0px;
+        }
+        .line {
+            display: inline-block;
+            position: absolute;
+        }
+        .Value {
+            color: black;
+            padding: 15px;
+            float: left;
+            font-size: 15px;
+        }
+            .Value:hover {
+                color: white;
+                background-color: #04AA6D;
+            }
+        .sign {
+            position: relative;
+            width: 93px;
+            padding: 10px 16px;
+            font-size: 16px;
+            margin-right: -33px;
+            color: white;
+            background-color: #04AA6D;
+            border-radius: 25px;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+            z-index: 2;
+        }
+        .login {
+            position: relative;
+            width: 112px;
+            padding: 10px 16px 10px 39px;
+            font-size: 16px;
+            color: black;
+            background-color: #D9EEE1;
+            border-radius: 25px;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+            z-index: 1;
+        }
+            .login:hover {
+                color: white;
+                background-color: #04AA6D;
+            }
+        #cource {
+            background-color: #282A35;
+            padding: 5px 15px 5px 10px;
+            color:white;
+        }
+        #menu1 {
+            margin:0px 0px 0px 180px;
+            color: white;
+        }
+        #menu2 {
+            margin: 0px 0px 0px 50px;
+            color: white;
+        }
+        #menu3 {
+            margin: 0px 0px 0px 50px;
+            color: white;
+        }
+        .menu {
+            color: white;
+            padding: 5px 5px 5px 10px;
+            font-size: 15px;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+        }
+            .menu:hover {
+                color: white;
+                background-color: #04AA6D
+            }
+        #topics {
+            position: relative;
+            height: 100%;
+            width: 230px;
+            display: inline-block;
+            background-color: #E7E9EB;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        .Definition {
+            display: block;
+            padding: 5px 1px 1px 16px;
+            font-size: 15px;
+            background-color: transparent;
+            font-family: "Segoe UI",Arial,sans-serif;
+            color: black;
+        }
+            .Definition:hover {
+                color: white;
+                background-color: #04AA6D;
+            }
+        #Inten {
+            font-size: 16px;
+            padding-left: 16px;
+            margin: -4px 0 4px 0;
+            width: 204px;
+            font-family: "Segoe UI",Arial,sans-serif;
+            font-weight: 600;
+        }
+        #titles {
+            position: absolute;
+            float:right;
+            display: inline-block;
+            padding:0px 0px 0px 50px ;
+        }
+        #named {
+           
+            font-size: 30px;
+            font-family: "Segoe UI",Arial,sans-serif;
+            font-weight: 400;
+            padding: 30px 0px 5px 10px;
+        }
+        #textalign {
+            margin: -20px 10px 0px 0px;
+            background-color: #E7E9EB;
+            font-size: 15px;
+            display: block;
+            font-family: Verdana,sans-serif;
+            padding: 20px 20px 0px 20px;
+            border-radius: 5px;
+        }
+        #Exetrnal {
+            margin: -20px 10px 0px 0px;
+            background-color: #E7E9EB;
+            font-size: 15px;
+            display: block;
+            font-family: Verdana,sans-serif;
+            padding: 20px 20px 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/08bef55afd.js" crossorigin="anonymous"></script>
+    <div id="img">
+        <img id="Logo" src="W3.png" />
+    </div>
+    <div class="line">
+        <a class="Value" href="">Tutorials <i class="fa-sharp fa-solid fa-caret-down"></i> </a>
+        <a class="Value" href="">Exercise <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+        <a class="Value" href="">Get Certified <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+        <a class="Value" href="">Services <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+    </div>
+    <div class="Data">
+        <a class="Headline" href=""><i class="fa-solid fa-wand-magic-sparkles" style="color:#594474"></i> BootCamps</a>
+        <a class="Headline" href=""> <i class="fa-solid fa-gift" style="color: #04AA6D;"></i> Spaces</a>
+        <a href="" class="sign">Sign up</a>
+        <a href="" class="login">log in</a>
+    </div>
+    <div id="cource">
+        <a class="menu" href="">HTML</a>
+        <a class="menu" href="">CSS</a>
+        <a class="menu" href="">JAVASCRIPT</a>
+        <a class="menu" href="">SQL</a>
+        <a class="menu" href="">PYTHON</a>
+        <a class="menu" href="">JAVA</a>
+        <a class="menu" href="">PHP</a>
+        <a class="menu" href="">BHOOTSTRAP</a>
+        <a class="menu" href="">HOW TO</a>
+        <a class="menu" href="">W3.CSS</a>
+        <a class="menu" href="">C</a>
+        <a class="menu" href="">C++</a>
+        <a class="menu" href="">C#</a>
+        <a class="menu" href="">REACT</a>
+        <a class="menu" href="">R</a>
+        <a id="menu1" href=""><i class="fa-solid fa-circle-half-stroke"></i></a>
+        <a id="menu2" href=""><i class="fa-solid fa-earth-americas"></i></a>
+        <a id="menu3" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+       
+    </div>
+    <div id="topics">
+        <h2 id="Inten">CSS TOTORIAL</h2>
+        <a class="Definition" href="">CSS HOME</a>
+        <a class="Definition" href="">CSS Introduction</a>
+        <a class="Definition" href="">CSS Syntax</a>
+        <a class="Definition" href="">CSS Selectors</a>
+        <a class="Definition" href="">CSS How To</a>
+        <a class="Definition" href="">CSS Commends</a>
+        <a class="Definition" href="">CSS Color</a>
+        <a class="Definition" href="">CSS Backgrounds</a>
+        <a class="Definition" href="">CSS Margins</a>
+        <a class="Definition" href="">CSS BORDERS</a>
+        <a class="Definition" href="">CSS PADDING</a>
+        <a class="Definition" href="">CSS Height/Width</a>
+        <a class="Definition" href="">CSS Box Model</a>
+        <a class="Definition" href="">CSS Outline</a>
+        <a class="Definition" href="">CSS Text</a>
+        <a class="Definition" href="">CSS Fonts</a>
+        <a class="Definition" href="">CSS Icons</a>
+        <a class="Definition" href="">CSS Links</a>
+        <a class="Definition" href="">CSS Lists</a>
+        <a class="Definition" href="">CSS Tables</a>
+        <a class="Definition" href="">CSS Display</a>
+    </div>
+    <div id="titles">
+        <h1 id="named">How To Add Css</h1>
+        <pre id="textalign">
+When a browser reads a style sheet, it will format the HTML document according to the information in the
+style sheet.
+        </></pre>
+        <h1 id="named">Three Ways To Insert CSS</h1>
+        <ul id="Bullet">
+            <li class="ul-list">External CSS</li>
+            <li class="ul-list">Internal CSS</li>
+            <li class="ul-list">Inline   CSS</li>
+        </ul>
+        <h1 id="named">External CSS</h1>
+        <pre id="Exetrnal">
+With an external style sheet, you can change the look of an entire website by changing just one file!
+
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the 
+
+head section.
+</pre>
+    </div>
+</body>
+</html>
